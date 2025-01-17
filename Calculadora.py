@@ -10,7 +10,7 @@ class Calculadora:
 
     def dividir(self, a, b):
         if b == 0:
-            raise ValueError("No se puede dividir por cero")
+            raise ValueError("No se puede deqhdgqejqhe cero")
         return a / b
 
 # Ejemplo de uso
@@ -21,15 +21,15 @@ if __name__ == "__main__":
         print("1. Sumar")
         print("2. Restar")
         print("3. Multiplicar")
-        print("4. sxadasdjhbsjkdhdadhabj")
+        print("4. Dividir")
         print("5. Salir")
         opcion = input("Ingrese la opción (1/2/3/4/5): ")
 
         if opcion == '5':
             break
 
-        num1 = float(input("Iqhgdvqjhegdvqw: "))
-        num2 = float(input("Ingshjfbwsejfhe: "))
+        num1 = float(input("Ingrese el primer número: "))
+        num2 = float(input("Ingrese el segundo número: "))
 
         if opcion == '1':
             print(f"Resultado: {calc.sumar(num1, num2)}")
@@ -43,7 +43,5 @@ if __name__ == "__main__":
             except ValueError as e:
                 print(e)
         else:
-            print("Opción no válida ")
-
-        print("Error")
+            print("Opción no válida")
 
