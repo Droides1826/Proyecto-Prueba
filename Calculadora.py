@@ -28,8 +28,8 @@ if __name__ == "__main__":
         if opcion == '5':
             break
 
-        num1 = float(input("Injkhsdjkhsdkjhadso: "))
-        num2 = float(input("ksjdlkjasdlkjsaldkjsalkdjlskajo: "))
+        num1 = float(input("Ingrese el primer numero: "))
+        num2 = float(input("Ingrese el segundo numero: "))
 
         if opcion == '1':
             print(f"Resultado: {calc.sumar(num1, num2)}")
@@ -45,5 +45,5 @@ if __name__ == "__main__":
         else:
             print("Opción no válida ")
 
-        print("Hola sdaskjhdkjsahdkjhsajdhsakjdh")
+        print("Error")
 
