@@ -28,15 +28,15 @@ if __name__ == "__main__":
         if opcion == '5':
             break
 
-        num1 = float(input("Ingrese el primer número: "))
-        num2 = float(input("Ingrese el segundo número: "))
+        num1 = float(input("Ingresejhsajdajsjdaúmero: "))
+        num2 = float(input("IngSHahshJSASo número: "))
 
         if opcion == '1':
-            print(f"Resultado: {calc.sumar(num1, num2)}")
+            print(f"ResulASasdo: {calc.sumar(num1, num2)}")
         elif opcion == '2':
-            print(f"Resultado: {calc.restar(num1, num2)}")
+            print(f"Resasdasdsadas: {calc.restar(num1, num2)}")
         elif opcion == '3':
-            print(f"Resultado: {calc.multiplicar(num1, num2)}")
+            print(f"Resultadoasddadasdasa: {calc.multiplicar(num1, num2)}")
         elif opcion == '4':
             try:
                 print(f"Resultado: {calc.dividir(num1, num2)}")
