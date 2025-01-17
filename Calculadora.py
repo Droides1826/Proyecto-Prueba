@@ -43,5 +43,7 @@ if __name__ == "__main__":
             except ValueError as e:
                 print(e)
         else:
-            print("Opción no válida")
+            print("Opción no válida ")
+
+        print("Hola sdaskjhdkjsahdkjhsajdhsakjdh")
 
