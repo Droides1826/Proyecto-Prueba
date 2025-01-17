@@ -44,3 +44,5 @@ if __name__ == "__main__":
                 print(e)
         else:
             print("Opción no válida")
+
+print("Fin del programa 12345646")
